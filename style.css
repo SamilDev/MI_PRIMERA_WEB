@@ -1,14 +1,38 @@
-body{
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1p5x;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    font-size: 1.5em; /* Corregido el valor de font-size */
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     color: rgb(31, 29, 29);
     padding: 25px 50px 75px 100px;
 }
 
-h1{
+h1 {
     color: rgb(0, 0, 0);
     animation: alternate-reverse;
     animation-duration: 2s;
-    
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+.youtube-item, .instagram-item {
+    display: flex;
+    align-items: center; /* Centra la imagen y el texto verticalmente */
+    margin-bottom: 10px; /* Añade un pequeño margen entre cada ítem */
+}
+
+.img-1, .img-2 {
+    margin-left: 50px; /* Espacio entre el texto y la imagen */
+}
+
+.img-1 {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    margin-left: 25px;
+}
+
+.img-2 {
+    width: 70px; /* Ajusta el tamaño de la imagen */
+    margin-left: 10px; /* Espacio entre el texto y la imagen */
 }
